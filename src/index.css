@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+/* Las anclas no quedan tapadas por el nav fijo */
+section[id] {
+  scroll-margin-top: 5rem;
+}
+
+::selection {
+  background-color: rgba(37, 99, 235, 0.35);
+  color: #fff;
+}
+
+.dot-grid {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+  background-size: 28px 28px;
+}
