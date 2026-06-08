@@ -26,8 +26,8 @@ export default function Nav() {
       <div className="max-w-6xl mx-auto px-5 sm:px-6 h-16 flex items-center justify-between">
         {/* Logo */}
         <a href="#inicio" className="flex items-center gap-3 shrink-0">
-          <div className="w-9 h-9 rounded-xl bg-blue-600 flex items-center justify-center font-bold text-xs shadow-lg shadow-blue-600/30 select-none">
-            <img src="/Domo&Soporte.png" alt="D&S" />
+          <div className="w-10 h-10 rounded-full overflow-hidden shrink-0 border border-blue-600/30 shadow-md">
+            <img src="/Domo&Soporte.png" alt="D&S logo" className="w-full h-full object-cover" />
           </div>
           <span className="font-semibold tracking-tight text-sm sm:text-base text-gray-900">
             <span className="text-blue-600 font-bold">Domótica</span> & <span className="font-serif">Soportes</span>
